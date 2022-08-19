@@ -147,9 +147,6 @@
 
     Update the server:
     ./update.sh
-
-    If you are using Workshop/Mods; you will need to 're-patch' your mods:
-    mv ~/dedicated_mods_backup.lua ~/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
   ```
 
 </div><br><br>
