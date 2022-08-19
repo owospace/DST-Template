@@ -158,7 +158,7 @@
 
   <h2>Roadmap & Updates</h2>
 
-  - [ ] Impl a way for Workshop content to be cloned back when updating.
+  - [X] Impl a way for Workshop content to be cloned back when updating.
   - [ ] Upload our bash scripts to this repo.
 
   <p>Please see the <a href="https://github.com/owospace/Tsukimi-DST/issues">open issues</a> for a list of proposed features (as well as known issues).</p>
