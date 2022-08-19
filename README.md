@@ -42,15 +42,13 @@
     We used Debian in this instance.
     https://www.debian.org/download
   ```
-  <br>
 
   * [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD#Linux)<br>
   ```
     We had to do some work arounds for adding multiverse (Ubuntu packages) to Debian.
     https://developer.valvesoftware.com/wiki/SteamCMD#Linux
   ```
-  <br>
-  
+
   * [A Klei Account with DST](https://accounts.klei.com/login)<br>
   ```
     https://accounts.klei.com/login
