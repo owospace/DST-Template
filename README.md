@@ -109,7 +109,7 @@
   6. Setup Workshop/Mods (OPTIONAL):<br>
   ```
     Setup the workshop content
-    cp -R DST-Template/src/mods dontstarvetogether_dedicated_server/
+    cp -R DST-Template/src/dontstarvetogether_dedicated_server/mods dontstarvetogether_dedicated_server/
 
     Configure your workshop collection/mods (or feel free to use our own Collection!)
     nano ~/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
