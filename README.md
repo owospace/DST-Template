@@ -59,7 +59,7 @@
   
   1. Install dependencies:<br>
   ```
-    sudo apt install libstdc++6 libgcc1 libcurl4-gnutls-dev wget git nano
+    sudo apt install libstdc++6 libgcc1 libcurl4-gnutls-dev wget git nano screen
   ```
 
   2. Create & Setup a Server with Klei:<br>
