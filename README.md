@@ -7,7 +7,7 @@
   <h1 align="center">DST-Template</h1>
 
   <p align="center">
-    This contains configurations & setup for the 'Tsukimi' Don't Starve Together dedicated server.<br>
+    This contains configurations & setup for a Linux-based Don't Starve Together dedicated server.<br>
     <a href="https://github.com/owospace/DST-Template#getting-started"><strong>Setup »</strong></a>
     <br>
   </p>
