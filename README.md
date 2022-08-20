@@ -4,11 +4,11 @@
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/owospace/spce.moe/master/logo.png" width="160" height="148">
-  <h1 align="center">Tsukimi-DST</h1>
+  <h1 align="center">DST-Template</h1>
 
   <p align="center">
     This contains configurations & setup for the 'Tsukimi' Don't Starve Together dedicated server.<br>
-    <a href="https://github.com/owospace/Tsukimi-DST#getting-started"><strong>Setup »</strong></a>
+    <a href="https://github.com/owospace/DST-Template#getting-started"><strong>Setup »</strong></a>
     <br>
   </p>
 
@@ -16,10 +16,10 @@
 
 <div>
 
-  <h2>About Tsukimi-DST</h2>
+  <h2>About DST-Template</h2>
 
-  Tsukimi-DST is a repository provided to help manage<br>
-  the configurations & setup files for the 'Tsukimi'<br>
+  DST-Template is a repository provided to help manage<br>
+  the configurations & setup files for the<br>
   Don't Starve Together dedicated server.<br>
   
   This will be used to make changes & keep track of the<br>
@@ -89,7 +89,7 @@
     cd ~
 
     Clone the 'install.sh' file:
-    wget https://raw.githubusercontent.com/owospace/Tsukimi-DST/master/src/install.sh
+    wget https://raw.githubusercontent.com/owospace/DST-Template/master/src/install.sh
 
     Mark the 'install.sh' file as executable:
     chmod +x install.sh
@@ -100,23 +100,23 @@
     This script will automatically download the Don't Starve Together server files.
   ```
 
-  5. Clone the Tsukimi-DST Repo:<br>
+  5. Clone the DST-Template Repo:<br>
   ```
     Clone this repo into the home folder. (~) (You should still be here.)
-    git clone https://github.com/owospace/Tsukimi-DST
+    git clone https://github.com/owospace/DST-Template
   ```
 
   6. Setup Workshop/Mods (OPTIONAL):<br>
   ```
     Setup the workshop content
-    cp -R Tsukimi-DST/src/mods dontstarvetogether_dedicated_server/
+    cp -R DST-Template/src/mods dontstarvetogether_dedicated_server/
 
     Configure your workshop collection/mods (or feel free to use our own Collection!)
     nano ~/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
 
     -- If using our collection, make sure to copy these two files to enable the mods.
-    cp Tsukimi-DST/src/.klei/DoNotStarveTogether/MyDediServer/Master/modoverrides.lua ~/.klei/DoNotStarveTogether/MyDediServer/Master
-    cp Tsukimi-DST/src/.klei/DoNotStarveTogether/MyDediServer/Master/modoverrides.lua ~/.klei/DoNotStarveTogether/MyDediServer/Caves
+    cp DST-Template/src/.klei/DoNotStarveTogether/MyDediServer/Master/modoverrides.lua ~/.klei/DoNotStarveTogether/MyDediServer/Master
+    cp DST-Template/src/.klei/DoNotStarveTogether/MyDediServer/Master/modoverrides.lua ~/.klei/DoNotStarveTogether/MyDediServer/Caves
     
     -- If using your own collection; you will also need to update another file:
     nano ~/.klei/DoNotStarveTogether/MyDediServer/Master/modoverrides.lua
@@ -128,7 +128,7 @@
   7. Start your Don't Starve Together server:<br>
   ```
     Clone the 'start.sh' script:
-    wget https://raw.githubusercontent.com/owospace/Tsukimi-DST/master/src/start.sh
+    wget https://raw.githubusercontent.com/owospace/DST-Template/master/src/start.sh
 
     Set the 'start.sh' script to be executable:
     chmod +x start.sh
@@ -140,7 +140,7 @@
   8. Updating your Don't Starve Together server:<br>
   ```
     Clone the 'update.sh' script:
-    wget https://raw.githubusercontent.com/owospace/Tsukimi-DST/master/src/update.sh
+    wget https://raw.githubusercontent.com/owospace/DST-Template/master/src/update.sh
 
     Set the 'update.sh' script to be executable:
     chmod +x start.sh
@@ -158,7 +158,7 @@
   - [X] Impl a way for Workshop content to be cloned back when updating.
   - [ ] Upload our bash scripts to this repo.
 
-  <p>Please see the <a href="https://github.com/owospace/Tsukimi-DST/issues">open issues</a> for a list of proposed features (as well as known issues).</p>
+  <p>Please see the <a href="https://github.com/owospace/DST-Template/issues">open issues</a> for a list of proposed features (as well as known issues).</p>
 
 </div><br><br>
 
@@ -166,7 +166,7 @@
 
   <h2>Contributing</h2>
 
-  <p>If you want to make a contribution, please fork the repository & create a pull request. If you have a suggestion you would want to see, you can <a href="https://github.com/owospace/Tsukimi-DST/issues/new">open a new issue</a> with your request.</p>
+  <p>If you want to make a contribution, please fork the repository & create a pull request. If you have a suggestion you would want to see, you can <a href="https://github.com/owospace/DST-Template/issues/new">open a new issue</a> with your request.</p>
 
   1. Fork the project<br>
   2. Create your Feature Branch (`git checkout -b feature/YourFeature`)<br>
@@ -181,6 +181,6 @@
   <h2>Contact & Support</h2>
 
   * [biz(at)spce.moe](mailto:biz@spce.moe) - Send me mail<br>
-  * [GitHub (This Project)](https://github.com/owospace/Tsukimi-DST) - Project Link
+  * [GitHub (This Project)](https://github.com/owospace/DST-Template) - Project Link
 
 </div><br><br>
