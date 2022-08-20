@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##
-# Install Directory
+# -- Install Directory
 # This will be the directory which contains your dedicated server.
 #
 # As such, will contain folders such as 'bin', 'bin64', 'data', 'steamapps' and so forth.
@@ -14,6 +14,7 @@ install_dir="$HOME/dontstarvetogether_dedicated_server"
 ##
 # Function calls (provided by Klei themselves) <3
 ## 
+
 function fail()
 {
 	echo Error: "$@" >&2
@@ -32,6 +33,7 @@ function chkIntegrity()
 ##
 # Validate that the 'install_dir' is set correctly.
 ##
+
 chkIntegrity "$install_dir/bin64"
 cd "$install_dir/bin64" || fail
 
@@ -46,6 +48,7 @@ cd "$install_dir/bin64" || fail
 # Therefore, these workshop mods will not be enabled/added when starting a
 # newly updated server. This *hopefully* fixes that.
 ##
+
 cp "$install_dir/mods/dedicated_server_mods_setup.lua" "$HOME/dedicated_mods_backup.lua"
 
 
@@ -54,6 +57,7 @@ cp "$install_dir/mods/dedicated_server_mods_setup.lua" "$HOME/dedicated_mods_bac
 # Update the Don't Starve Together Dedicated Server
 # This will also validate the files automatically.
 ##
+
 steamcmd +force_install_dir "$install_dir" +login anonymous +app_update 343050 validate +quit
 
 
@@ -62,6 +66,7 @@ steamcmd +force_install_dir "$install_dir" +login anonymous +app_update 343050 v
 # Re-enable the Workshop Content.
 # (see above for more details)
 ##
+
 mv "$HOME/dedicated_mods_backup.lua" "$install_dir/mods/dedicated_server_mods_setup.lua"
 
 
